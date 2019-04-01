@@ -1,0 +1,33 @@
+@height : 24px;
+.dialog-wrapper{
+    &.open{
+        display: block;
+    }
+    height: 100%;
+    display: none;
+    &>.overlay{
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &>.dialog{
+        z-index: 10;
+        background: #ffffff;
+        position: fixed;
+        top: @height;
+        left: @height;
+        right: @height;
+        bottom: @height;
+        padding: @height 14px;
+        box-shadow:  0 0 10px rgba(0, 0, 0, .8);
+        & heading{
+            padding:  @height/2px;
+        }
+
+    }
+}

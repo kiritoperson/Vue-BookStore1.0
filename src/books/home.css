@@ -1,0 +1,180 @@
+*{
+    list-style-type: none;
+}
+.announcement {
+    font-size: 12px;
+    padding:5px;
+    background:#fff;
+}
+
+.announcement > label {
+    padding: 3px 10px;
+    margin: 3px 10px;
+    background: #FACCB7;
+    border-radius: 3px;
+    color: #FF5102;
+
+}
+
+.announcement > span {
+    padding: 3px 10px;
+    color: #333;
+    display:inline-block;
+}
+
+  .aui_close {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        position: absolute;
+        right:10px;
+        top:10px;
+        font-size: 25px;
+        border-radius: 30px;
+        background: #999;
+        color: #FFF;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        -moz-transition: linear .06s;
+        -webkit-transition: linear .06s;
+        transition: linear .06s;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .aui_close:hover {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        right:8px;
+        top:8px;
+        color: #FFF;
+        box-shadow: 0 1px 3px rgba(209, 40, 42, .5);
+        background: #d1282a;
+        border-radius: 34px;
+        transition: all 0.2s ease-out;
+        opacity: 0.8;
+    }
+    h2{
+        padding: 10px 25px 0 25px;
+        height: 10px;
+        width: 90%;
+        border-top:2px solid #999;
+    }
+    .xq{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+        color: #333;
+    }
+    .xq img{
+        width: 150px;
+        height: 150px;
+        padding-top: 20%;
+    }
+    .xq ul{
+        padding-top: 30px;
+    }
+    .xq li{
+        padding-top: 13px;
+    }
+    .xq ul li span{
+        padding-left: 10px;
+    }
+
+    .introduction{
+        padding: 15px 15px 0 15px;
+        color: #999;
+        font-size: 15px;
+        text-align: left;
+    }
+/*价格*/
+        ul,
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        a:link {
+            text-decoration: none;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        
+        .btn-numbox {
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        .btn-numbox li {
+            float: left;
+        }
+        
+        .btn-numbox li .number,
+        .kucun {
+            padding-left: 10px;
+            display: inline-block;
+            font-size: 12px;
+            color: #808080;
+            vertical-align: sub;
+        }
+        
+        .btn-numbox .count {
+            overflow: hidden;
+            margin: 0 16px 0 -20px;
+        }
+        
+        .btn-numbox .count .num-jian,
+        .input-num,
+        .num-jia {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 18px;
+            color: #999;
+            cursor: pointer;
+            border: 1px solid #e6e6e6;
+        }
+        .btn-numbox .count .input-num {
+            width: 58px;
+            height: 26px;
+            color: #333;
+            border-left: 0;
+            border-right: 0;
+        }
+        .price{
+            width: 100px;
+            padding: 20px 20px 0 0;
+            border-right: 1px solid #999;
+        }
+        /*gw*/
+        .gm{
+            text-align: center;
+        }
+        .gw {
+background-color: #f44336; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.gw2 {background-color: #555555;}
